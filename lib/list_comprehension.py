@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 
 def return_evens(num_list):
-    pass
+    even = []
+    for i in num_list:
+        if i % 2 == 0:
+            even.append(i)
+    return even
+   #     else:
+    #        return list()
+    #pass
 
 def make_exclamation(sentence_list):
-    pass
+    return [f"{i}!" for i in sentence_list]
